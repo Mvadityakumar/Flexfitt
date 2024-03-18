@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FlexFit Gym</title>
+    <link
+      rel="shortcut icon"
+      href="images/muscle logo.png"
+      type="image/x-icon"
+    />
+    <style>
+      .navbar a {
+        color: #e5e5cb;
+      }
+
+      .bar {
+        background-color: #e5e5cb;
+      }
+
+      #formdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      #forms{
+        
+        border: #1a120b solid;
+        
+        
+        width: 400px
+       
+
+      }
+      #signinheading{
+        font-weight: ;
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        color: #1a120b;
+      }
+
+      #signindetails{
+        padding-top: 50px;
+        font-size: 20px;
+        text-align: center;
+       
+        
+
+      }
+      #signindetails input{
+
+        border: transparent;
+        border-bottom: #000000 2px solid;
+        margin-bottom: 10px;
+        margin-top: 20px;
+       
+        height: 30px;
+        font-size: 20px;
+        background-color: transparent;
+        
+      }
+
+      #forgotid{
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+        font-size: 15px;
+        margin: 20px;
+        
+        
+
+      }
+
+      #forgotid a{
+        color: #1a120b;
+      }
+
+      
+
+      #lastdatainform p{
+        text-align: center;
+        margin: 20px;
+        font-size: 12px;
+
+        
+      }
+
+      #lastdatainform button{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        margin: auto;
+        font-size: 17px;
+        background-color: #000000;
+        color: #e5e5cb;
+        border: none;
+        
+        margin-bottom: 20px;
+        width: 100px;
+        height: 40px;
+        
+
+      }
+
+      
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #1a120b" class="header">
+      <nav class="navbar">
+        <a href="/index.html" class="nav-logo"
+          >FlexFit<img
+            src="/images/muscle logo1.png"
+            alt=""  
+            width="40px"
+          />Gym</a
+        >
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#info" class="nav-link">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer"" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="/sign.html" class="nav-link">Sign in</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div  id="formdiv">
+
+    <section id="forms">
+        <div id="signinheading">
+            <h1>Sign in</h1>
+        </div>
+        <div id="signindetails">
+            <form action="">
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail"  p ><br><br>
+                <label for="pass">Password</label><br>
+                <input type="password"  id="pass"><br>
+
+
+            </form>
+        </div>
+        <div id="forgotid">
+            <a href="">Forgot Password</a> <p>or</p> <a href="">Create an account</a>
+        </div>
+        <div id="lastdatainform">
+            <p>By clicking "Sign in", you agree to our Terms and Conditions and consent to our Privacy Policy</p>
+            <button type="button">Sign in</button>
+        </div>
+    </section>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
